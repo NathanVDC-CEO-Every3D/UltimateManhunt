@@ -14,7 +14,7 @@ Upload the plugin into your plugins folder of your **Spigot** server.
 Restart the server and edit the config file to your wishes.
 
 You also need these other plugins for this plugin to work:  
-[KTools](https://www.spigotmc.org/resources/ktools.108301/) and [WarningManager](https://dev.bukkit.org/projects/warningmanager/files)  
+[KTools](https://www.spigotmc.org/resources/ktools.108301/) and [WarningManager](https://www.spigotmc.org/resources/warningmanager.11381/)  
 Please use version 2.4 for WarningManager.
 
 ### **Commands**
