@@ -15,7 +15,7 @@ Restart the server and edit the config file to your wishes.
 
 You also need these other plugins for this plugin to work:  
 [KTools](https://www.spigotmc.org/resources/ktools.108301/) and [WarningManager](https://dev.bukkit.org/projects/warningmanager/files)  
-WarningManaher
+Please use version 2.4 for WarningManager.
 
 ### **Commands**
 /manhunt <-- Gives you all the possible commands for manhunt.  
@@ -37,4 +37,8 @@ the permission will look like this: manhunt.vip.
 
 ## **Placeholders**
 This plugin has placeholders that you can use in your own leaderboards
-or to display the top players somewhere.
+or to display the top players somewhere. These placehoders are:  
+%manhunt_player_name%  
+%manhunt_topName_place%  
+%manhunt_topPoints_place%
+
