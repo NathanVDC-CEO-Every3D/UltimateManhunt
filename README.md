@@ -41,4 +41,10 @@ or to display the top players somewhere. These placehoders are:
 %manhunt_player_name%  
 %manhunt_topName_place%  
 %manhunt_topPoints_place%
+Replace "place" with the position the player is on the leaderboard
+for example if you want to show the best player on the server and his points next to it do: %manhunt_topName_1% - %manhunt_topPoints_1%
 
+## **How the game works**
+When the minimum amount of players join the game waiting que the server starts counting down for a game, this is as default 15 seconds (change this in the config) the after this time the runner gets send to the overworld and the hunter has to wait the amount of waittime set in the config which is by default 30 seconds. After the 30 seconds the hunter gets tped to the world with a compass, if the hunter dies he keeps his compass. The compass points towards the runner and if the runner is in another dimension it points to the portal the runner used.  
+
+The hunter can die as much as he wants but won't lose unless the runner finishes the game (killing the enderdragon), the hunter can't leave mid game or else he would lose points or if he has 0 points he would get warned (by warningmanager), once the game is going on for more then 10 minutes the runner autmatically gets 5 points no mather if he loses or not, he does not get these points if he leaves mid game, he only gets them by losing, if he wins he gets 20 points (configurable in config.yml) if the hunter wins he by default gets 3 points (change this in config.yml if you want to)
